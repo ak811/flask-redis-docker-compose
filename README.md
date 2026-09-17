@@ -1,11 +1,10 @@
 # Flask + Redis with Docker Compose
 
-This project is part of **Cloud Computing for Data Analysis (ITCS 6190/8190, Fall 2025)** hands-on exercise.  
-It demonstrates how to containerize a Python Flask web application, connect it to a Redis cache, and orchestrate services using Docker Compose.
+This project demonstrates how to containerize a Python Flask web application, connect it to a Redis cache, and orchestrate services using Docker Compose.
 
 ---
 
-## 🚀 Setup & Run
+## Setup & Run
 
 1. **Clone the repo / download files**
 
@@ -19,11 +18,9 @@ It demonstrates how to containerize a Python Flask web application, connect it t
    ```bash
    docker compose up --build
 
-## 📊 Results
+## Results
 
 After running the containers, you should see the Flask app output.  
 Here’s a sample result screenshot:
-
-![Results](result.png)
 
 ![Docker](docker.png)
